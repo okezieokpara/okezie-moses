@@ -1,0 +1,10 @@
+@media only screen and (max-width: 600px) {
+    #nav-bar {
+        top: 0%;
+    }
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+}

@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Fork Me! FCC: Test Suite Template</title>
-    <link rel="stylesheet" href="css/style.css">
-  </head>
 
-  <body>
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<head>
+  <meta charset="UTF-8">
+  <title>Fork Me! FCC: Test Suite Template</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
 
-    <!--
+<body class="flex-container">
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+  <!--
 
     Hello Camper!
 
@@ -21,16 +22,30 @@
     - The freeCodeCamp Team
 
     -->
-    <script  src="js/index.js"></script>
-    <header id="header">
-      <img id="header-img" src=""/>
-      <nav id="nav-bar">\
-        <a class="nav-link" href="#video">Section 1</a>
-        <a class="nav-link" href="">Section 2</a>
-        <a class="nav-link" href="">Section 3</a>
-      </nav>
+  <script src="js/index.js"></script>
+  <header id="header">
+    <img id="header-img" src="" />
+    <nav id="nav-bar">
+      <a class="nav-link" href="#videosection">Section 1</a>
+      <a class="nav-link" href="#formsection">Section 2</a>
+      <a class="nav-link" href="#section1">Section 3</a>
+    </nav>
 
-      <video id="video"></video>
-    </header>
-  </body>
+  </header>
+  <section id=videosection>
+    <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/nCkblLhs0-4" frameborder="0"
+      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </section>
+
+  <section id="formsection">
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+      <input type="email" id="email" name="email" placeholder="Enter email" />
+      <input type="submit" id="submit" name="submit" />
+    </form>
+  </section>
+  <section id="section1">
+
+  </section>
+</body>
+
 </html>
